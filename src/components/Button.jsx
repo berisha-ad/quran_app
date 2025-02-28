@@ -1,6 +1,6 @@
 const Button = ({children, type, disabled}) => {
     return ( 
-        <button className="py-2 px-4 bg-emerald-500 rounded-full ml-4 cursor-pointer disabled:bg-gray-200 disabled:cursor-not-allowed" disabled={disabled} type={type}>{children}</button>
+        <button className="bg-blue-500 text-white py-2 px-6 rounded-full transition-all duration-300 ease-in-out ml-4 transform hover:bg-blue-600 hover:scale-105 focus:outline-none cursor-pointer disabled:bg-gray-200 disabled:cursor-not-allowed" disabled={disabled} type={type}>{children}</button>
      );
 }
  
