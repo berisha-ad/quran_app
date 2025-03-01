@@ -6,6 +6,7 @@ import Layout from './Layout';
 import Home from './pages/Home';
 import About from './pages/About';
 import { SearchProvider } from './components/SearchContext';
+import SearchByJuzsPage from './pages/SearchByJuzsPage';
 
 const routes = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const routes = createBrowserRouter([
       {
         element: <About />,
         path: "/about",
+      },
+      {
+        element: <SearchByJuzsPage />,
+        path: "/search-by-juzs",
       },
     ],
   },

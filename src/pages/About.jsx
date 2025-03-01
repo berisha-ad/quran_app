@@ -1,6 +1,13 @@
+import Section from "../components/Section";
+import Container from "../components/Container";
+
 const About = () => {
     return (
-        <h1>About</h1>
+        <Section>
+            <Container>
+                <h1>About</h1>
+            </Container>
+        </Section>
     )
 }
 
