@@ -18,8 +18,8 @@ const SearchByJuzs = () => {
             </h1>
             <Grid>
                 {juzs?.length > 0 && juzs.map((juzs, index) => (
-                    <Card>
-                        <h2 className="text-xl font-bold">Sure: {juzs.chapter}, Vers: {juzs.verse}</h2>
+                    <Card key={index}>
+                        <h2 className="text-xl font-bold">Chapter: {juzs.chapter}, Verse: {juzs.verse}</h2>
                         <p>{juzs.text}</p>
                     </Card>
                 ))}

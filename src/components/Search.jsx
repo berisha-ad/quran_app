@@ -12,7 +12,7 @@ const Search = ({closeNav}) => {
         e.preventDefault();
         try {
             const response = await axios.get(`https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/${selectedLanguage}/juzs/${search}.json`);
-            console.log(response.data);
+            
             setResults(response.data);
         } catch (error) {
             console.error(error);

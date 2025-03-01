@@ -9,6 +9,7 @@ const Home = () => {
     return (
         <Section>
             <Container>
+                <h1 className="text-3xl font-bold">Quran App</h1>
                 <Grid>
                     <Card>
                         <NavLink to='/search-by-juzs'>

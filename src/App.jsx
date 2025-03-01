@@ -24,6 +24,14 @@ const routes = createBrowserRouter([
         element: <SearchByJuzsPage />,
         path: "/search-by-juzs",
       },
+      {
+        element: <Home />,
+        path: "/chapters",
+      },
+      {
+        element: <Home />,
+        path: "/verses",
+      },
     ],
   },
 ]);
