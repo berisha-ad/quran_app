@@ -21,10 +21,10 @@ const Home = () => {
                     </Card>
                     <Card>
                         <NavLink to='/chapters'>
-                            <h2 className="text-3xl font-bold underline">Suras</h2>
+                            <h2 className="text-3xl font-bold underline">Chapters</h2>
                         </NavLink>
                         <p>
-                            There are 114 Suras in the Quran.
+                            There are 114 chapters in the Quran.
                         </p>
                     </Card>
                     <Card>
